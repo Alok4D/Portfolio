@@ -32,7 +32,7 @@ const App = () => {
   return (
     <Router>
       <div className="scrollbar-hide">
-        <div className="navbar font-bold bg-purple-950 fixed top-0 text-white z-50 w-[85.5%] lg:w-[80.1%]">
+        <div className="navbar font-bold bg-purple-950 fixed top-0 text-white z-50 ">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -57,7 +57,7 @@ const App = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-purple-950 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li>
                   <Link to="/" onClick={() => handleScroll(homeRef)}>
